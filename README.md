@@ -21,6 +21,9 @@ home: MyHomePage(
 ```
 
 Topic subscribtion is in lib/RosNotifier.dart
-camera view:    camera/rgb/image_raw/compressed
-scaner map:     map
-speed:          cmd_vel
+
+| Resource   |      Topic      |
+|----------|:-------------:|
+| camera view |  camera/rgb/image_raw/compressed |
+| scaner map |    map   |
+| speed | cmd_vel |
