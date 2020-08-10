@@ -1,14 +1,13 @@
-# ros_nodes_dart_test
+# ros_nodes_flutter_map_example
 
 Example of how can you connect [ros_nodes] and [flutter].
 
 ## Getting Started
-
 [ros_nodes]: https://github.com/Sashiri/ros_nodes
 
+
 To make it work, please change your configuration in lib/main.dart
-```
-dart
+```dart
 home: MyHomePage(
     title: 'Flutter vision',
     config: RosConfig(
