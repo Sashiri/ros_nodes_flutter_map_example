@@ -1,0 +1,26 @@
+name: ros_nodes_flutter_map_example
+description: Example of how can you connect [ros_nodes] and [flutter].
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  ros_nodes:
+    git: 
+      url: https://github.com/Sashiri/ros_nodes.git
+      ref: master
+
+  cupertino_icons: ^0.1.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
